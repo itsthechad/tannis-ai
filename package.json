@@ -1,0 +1,31 @@
+{
+  "name": "tannis-ai",
+  "version": "0.0.1",
+  "description": "AI assistant run as a Google Cloud Function",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsthechad/tannis-ai.git"
+  },
+  "keywords": [
+    "AI",
+    "LLM",
+    "Google",
+    "Cloud",
+    "Function",
+    "ChatGPT",
+    "assistant"
+  ],
+  "author": "ChadC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsthechad/tannis-ai/issues"
+  },
+  "homepage": "https://github.com/itsthechad/tannis-ai#readme",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.2.0"
+  }
+}
