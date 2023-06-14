@@ -40,7 +40,7 @@ jobs:
         gcloud
         functions
         deploy
-        helloHttp # replace with the function name from your entry js file
+        helloHttp
         --project=${{ secrets.GCP_PROJECT_ID }}
         --region=us-east1
         --source=./src
