@@ -40,7 +40,7 @@ jobs:
         gcloud
         functions
         deploy
-        tannis
+        helloHttp
         --project=${{ secrets.GCP_PROJECT_ID }}
         --region=us-east1
         --source=.
