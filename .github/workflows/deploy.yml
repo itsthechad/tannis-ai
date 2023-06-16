@@ -40,10 +40,10 @@ jobs:
         gcloud
         functions
         deploy
-        helloHttp
+        tannis
         --project=${{ secrets.GCP_PROJECT_ID }}
         --region=us-east1
-        --source=./src
+        --source=.
         --runtime=nodejs16
         --gen2
         --trigger-http
