@@ -43,6 +43,7 @@ jobs:
         helloHttp
         --project=${{ secrets.GCP_PROJECT_ID }}
         --region=us-east1
+        --source=.
         --runtime=nodejs16
         --gen2
         --trigger-http
