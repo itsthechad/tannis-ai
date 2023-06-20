@@ -1,5 +1,6 @@
 {
   "name": "tannis-ai",
+  "type": "module",
   "version": "0.0.1",
   "description": "AI assistant run as a Google Cloud Function",
   "main": "index.js",
