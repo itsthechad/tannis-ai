@@ -24,7 +24,7 @@ http('helloHttp', async (req, res) => {
   twilioClient.messages.create( {
     to: process.env.MY_PHONE_NUMBER,
     from: process.env.TWILIO_PHONE_NUMBER,
-    body: inboundMsg,
+    body:response.data.choices[0].text.trim()
   }, function( err, data ) {});
 
   res.status(200).send('Success');
